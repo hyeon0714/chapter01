@@ -11,13 +11,15 @@ public class Ex03 {
 		System.out.print("근무시간 : ");
 		
 		int a=sc.nextInt();
+		int worktime;
 		
 		if(a<8) {
-			System.out.println("임금은 "+a*10000);
+			worktime = a*10000;
 		}else {
-			System.out.println("임금은 "+((a*10000)+(a-8)*2000));
+			worktime = a*10000 + (a-8)*2000;
 		}
 		
+			System.out.println("임금은 "+worktime+"원 입니다");
 		sc.close();
 	}
 

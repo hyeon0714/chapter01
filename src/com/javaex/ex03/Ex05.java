@@ -12,10 +12,10 @@ public class Ex05 {
 		
 		int a=sc.nextInt();
 		
-		if (a%3>0) {
-			System.out.println(a+"는 3의 배수가 아닙니다");
-		}else {
+		if (a%3==0) {
 			System.out.println(a+"는 3의 배수입니다");
+		}else {
+			System.out.println(a+"는 3의 배수가 아닙니다");
 		}
 		
 		sc.close();

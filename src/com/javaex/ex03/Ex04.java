@@ -17,7 +17,7 @@ public class Ex04 {
 		}else {
 			System.out.println("임금은 "+((a*10000)+(a-8)*5000));
 		}
-		
+		// 다른 방식의 접근
 		sc.close();
 
 	}
