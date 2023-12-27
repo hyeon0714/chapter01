@@ -35,7 +35,7 @@ public class Ex10 {
 			System.out.println("다시 입력해주세요");
 		
 		}
-		
+		// 문자형의 비교는 .equals() 써서 사용한다
 		sc.close();
 	}
 
